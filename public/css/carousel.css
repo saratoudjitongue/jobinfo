@@ -1,0 +1,41 @@
+/* GLOBAL STYLES
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 43.3rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  align:centers;
+}
+
+.carousel-text{
+font-family: arial;
+font-size: 25px;
+margin-left: 420px;
+margin-bottom: 250px;
+
+}
+
+.btn-primary{
+  font-family: georgia;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
